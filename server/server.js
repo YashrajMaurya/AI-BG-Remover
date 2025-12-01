@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://your-frontend-domain.com"
+    "https://ai-bg-remover-mu.vercel.app"
   ],
   methods: ["GET", "POST"],
   credentials: true
