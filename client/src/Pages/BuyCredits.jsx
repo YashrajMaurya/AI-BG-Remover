@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { assets, plans } from '../assets/assets';
+import { toast } from 'react-toastify';
 
 const BuyCredits = () => {
+    useEffect(()=>{
+        toast.error('Payment Integration Under Progress')
+    },[])
     return (
         <div className='min-h-[80vh] text-center pt-14 mb-10'>
             <button className='border border-gray-400 px-10 py-2 rounded-full mb-6'>Our Plans</button>
