@@ -10,21 +10,21 @@ const Steps = () => {
                     <img src={assets.upload_icon} alt="" className='max-w-9'/>
                     <div>
                         <p className='text-xl font-medium'>Upload image</p>
-                        <p className='text-sm text-neutral-500 mt-1'>This is a demo text, will rplace it later. <br/>This is a demo....</p>
+                        <p className='text-sm text-neutral-500 mt-1'>Choose any photo from your device to get started.  <br className='max-sm:hidden'/>JPG, PNG, and all major formats supported.</p>
                     </div>
                 </div>
                 <div className='flex items-start gap-4 bg-white border drop-shadow-md p-7 pb-10 rounded hover:scale-105 transition-all duration-500'>
                     <img src={assets.remove_bg_icon} alt="" className='max-w-9'/>
                     <div>
                         <p className='text-xl font-medium'>Remove Background</p>
-                        <p className='text-sm text-neutral-500 mt-1'>This is a demo text, will rplace it later. <br/>This is a demo....</p>
+                        <p className='text-sm text-neutral-500 mt-1'>Our AI removes the background with perfect accuracy —<br className='max-sm:hidden'/>no manual editing needed.</p>
                     </div>
                 </div>
                 <div className='flex items-start gap-4 bg-white border drop-shadow-md p-7 pb-10 rounded hover:scale-105 transition-all duration-500'>
                     <img src={assets.download_icon} alt="" className='max-w-9'/>
                     <div>
                         <p className='text-xl font-medium'>Download image</p>
-                        <p className='text-sm text-neutral-500 mt-1'>This is a demo text, will rplace it later. <br/>This is a demo....</p>
+                        <p className='text-sm text-neutral-500 mt-1'>Save your transparent PNG file instantly — <br className='max-sm:hidden'/>ready for editing or use anywhere. </p>
                     </div>
                 </div>
             </div>
